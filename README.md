@@ -1,16 +1,18 @@
 # mutillidae
 owasp labs 
 
-
-## This repo is about OWASP Mutillidae II ( updating content often) 💫 ##
+## Introduction  💫 ##
 
 
 <p align="left">
+This repo is about OWASP Mutillidae II ( updating content often)
 OWASP Mutillidae II is a free, open-source, deliberately vulnerable web application providing a target for web-security training. Mutillidae can be installed on Linux and Windows using LAMP, WAMP, and XAMMP. It is pre-installed on SamuraiWTF and OWASP BWA. The existing version can be updated on these platforms. With dozens of vulnerabilities and…
 
-  *Available here https://github.com/webpwnized/mutillidae*
+  *Available here for download and work in local or remote it is your Choise https://github.com/webpwnized/mutillidae*
   
-*Videos*  ![videos](https://www.youtube.com/watch?v=6FXeO3Wx5wc)
+ We are working in this section labs for *SQL-Injection*
+ 
+<img style="width:550px;height:400px;border-radius:10px;" src="https://github.com/anb100/mutillidae/blob/main/screenshots_/sql-injection.png">
 </p>
 
 ## Vulnerabilities in this project  : ##
@@ -32,9 +34,9 @@ Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y c
 ## Labs Timeline 
 
   - __Lab 6 SQL-I__
-  <p> </p>
+  <p> En este lab nos vamos a dirigir a user-info.php y podemos analizar el código de login.php . </p>
   
-   ![lab 6 image](http://via.placeholder.com/400x350 "lab6")
+ <img style="width:550px;height:400px;border-radius:10px;" src="https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%206/User-lookup-SQL.png" >
    
   - Lab 9
 
