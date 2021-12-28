@@ -13,7 +13,7 @@ OWASP Mutillidae II is a free, open-source, deliberately vulnerable web applicat
   - SQL-I
   - DOM Injection
  
- <p>__More than a 40 vulns in the project__</u>
+ <p>More than a 40 vulns in the project</p>
 
 Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y con capturas para la asignatura de puesta en producción.
 
