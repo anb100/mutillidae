@@ -22,3 +22,10 @@ Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y c
   - Lab 6 SQL-I 
   - Lab 7
   - Lab 9
+<details>
+<summary>Details</summary>
+<br />
+
+asdasd
+adfsd
+</details>
