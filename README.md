@@ -1,5 +1,5 @@
-# mutillidae
-owasp labs 
+# mutillidae II 
+pentesting playground | owasp labs |  
 
 ## Introduction  💫 ##
 
