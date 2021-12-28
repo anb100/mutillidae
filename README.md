@@ -4,11 +4,17 @@ owasp labs
 
 ## This repo is about OWASP Mutillidae II ( updating content often) 💫 ##
 
+
 <p align="left">
 OWASP Mutillidae II is a free, open-source, deliberately vulnerable web application providing a target for web-security training. Mutillidae can be installed on Linux and Windows using LAMP, WAMP, and XAMMP. It is pre-installed on SamuraiWTF and OWASP BWA. The existing version can be updated on these platforms. With dozens of vulnerabilities and…
+
+  *Available here https://github.com/webpwnized/mutillidae*
+  
+*Videos*  ![videos](https://www.youtube.com/watch?v=6FXeO3Wx5wc)
 </p>
 
 ## Vulnerabilities in this project  : ##
+
   - XSS
   - SQL-I
   - DOM Injection
@@ -19,6 +25,7 @@ Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y c
 
 
 ## Installation Mutillidae
+
   Instalación en XAMP (solo hay que añadir la base de datos ).
   
   
@@ -26,7 +33,9 @@ Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y c
 
   - __Lab 6 SQL-I__
   <p> </p>
-   ![lab 6 image](http://via.placeholder.com/400x350 "lab6"
+  
+   ![lab 6 image](http://via.placeholder.com/400x350 "lab6")
+   
   - Lab 9
 
 <details>
