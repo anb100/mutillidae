@@ -2,9 +2,13 @@
 owasp labs 
 
 
-#¿ Qué es Mutillidae ? #
+# ¿ Qué es  OWASP Mutillidae II ?
 
-Mutillidae es una plataforma que puedes instalar en local o remoto para testeo y pruebas con vulnerabilidades Ej ( XSS, SQL-I, etc ).
+OWASP Mutillidae II is a free, open-source, deliberately vulnerable web application providing a target for web-security training. Mutillidae can be installed on Linux and Windows using LAMP, WAMP, and XAMMP. It is pre-installed on SamuraiWTF and OWASP BWA. The existing version can be updated on these platforms. With dozens of vulnerabilities and…
+
+## vulnerabilidades 
+  - XSS
+  - SQL-I
 
 Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y con capturas para la asignatura de puesta en producción.
 
