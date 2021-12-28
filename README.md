@@ -16,7 +16,8 @@ OWASP Mutillidae II is a free, open-source, deliberately vulnerable web applicat
 </p>
 
 ## Vulnerabilities in this project  : ##
-
+ 
+  - XPath Injection 
   - XSS
   - SQL-I
   - DOM Injection
@@ -28,17 +29,34 @@ Este repositorio contiene los retos de laboratorio Mutillidae II , descritos y c
 
 ## Installation Mutillidae
 
-  Instalación en XAMP (solo hay que añadir la base de datos ).
+Options:
+  1. There are many options for install this project , for instance in localhost with *LAMP,XAMP,WAMP* or by containers in *Docker* I show both and I tried both
+  as well.
+  Here is the link for install in Docker ![ install Docker and Mutillidae ](https://www.youtube.com/watch?v=9RH4l8ff-yg) 
+  2. Installation in XAMP or LAMP just clone this repo ![Mutillidae](https://github.com/webpwnized/mutillidae) in htdocs - www-data - etc.. and run http://127.0.0.1/mutillidae
+  3. Read carfully the Instructions about database configuratin and *setup* .
+  4. Start the labs  (solo hay que añadir la base de datos ).
   
   
-## Labs Timeline 
+## SQL- Injection Labs Timeline 
+
+This labs are documented in many yt videos and now here. I try to solve the labs following the instructions and reading the hints.
+
 
   - __Lab 6 SQL-I__
   <p> En este lab nos vamos a dirigir a user-info.php y podemos analizar el código de login.php . </p>
   
  <img style="width:550px;height:400px;border-radius:10px;" src="https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%206/User-lookup-SQL.png" >
    
-  - Lab 9
+  - __Lab 9 Finding Number of Columns__
+  
+  
+  - __Lab 10 : SQL Injection - Pivoting with SQL iNjection__ 
+Hint : It is possible to use SQL injection on the User Info page to access other database tables besides the user database table
+
+Start: /user-info.php 
+
+  - __Lab 11 SQLMap__ 
 
 <details>
 <summary>Details</summary>
