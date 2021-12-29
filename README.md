@@ -1,5 +1,5 @@
 # mutillidae II 
-pentesting playground | owasp labs |  
+pentesting playground | owasp labs |  sql-injection
 
 ## Introduction  💫 ##
 
@@ -36,10 +36,15 @@ Options:
   Here is the link for install in Docker ![ install Docker and Mutillidae ](https://www.youtube.com/watch?v=9RH4l8ff-yg) 
   *Procedure  in Docker:* 
   Download from here ![ install Docker and Mutillidae ](https://github.com/webpwnized/mutillidae-docker) clone the entire repo and follow this steps , after download go to the /mutillidae-docker folder , then just run docker-compose up .
+  ![docker is ready](https://github.com/anb100/mutillidae/blob/main/screenshots_/Docker/Docker-compose-up.png) 
+  After this you can browser through http: for continue the installation. just a few ajustements in database and thats all.
+  Ready for SQL laps.
   
   2. Installation in XAMP or LAMP just clone this repo ![Mutillidae](https://github.com/webpwnized/mutillidae) in htdocs - www-data - etc.. and run http://127.0.0.1/mutillidae
-  3. Read carfully the Instructions about database configuratin and *setup* .
-  4. Start the labs  (solo hay que añadir la base de datos ).
+  Activate *MYSQL and APACHE* from Control Panel.
+  
+  4. Read carfully the Instructions about database configuratin and *setup* .
+  5. Start the labs  .
   
   
 ## SQL- Injection Labs Timeline 
@@ -52,8 +57,18 @@ This labs are documented in many yt videos and now here. I try to solve the labs
   
  <img style="width:550px;height:400px;border-radius:10px;" src="https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%206/User-lookup-SQL.png" >
    
-  - __Lab 9 Finding Number of Columns__
-  
+ - __Lab 7 Walk Through__ 
+ <p> First of all we need to go to /user-info.php this login is vulnerable to sql-injection I checked it before with sqlmap .
+ This labs consist in bypass the login with jeremy password<p>
+ 
+  ![bypass](https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%207%20Walkthrough/Sin%20t%C3%ADtulo.png)
+ 
+ - __Lab 9 Finding Number of Columns__
+  <p> In this lab we need to check how many columns has *the table Accounts * emulating this
+   [] Select * from accounts Where username=''$ AND password='' 
+   [] The $ is located where the injection is to put in (' ORDER BY 7 #) end with a hashtag for comment the *and password* . 
+   [] ![obtenerColumnas](https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%209%20Walkthrough/numero%20de%20columnas.png)
+   </p>
   
   - __Lab 10 : SQL Injection - Pivoting with SQL iNjection__ 
 Hint : It is possible to use SQL injection on the User Info page to access other database tables besides the user database table
