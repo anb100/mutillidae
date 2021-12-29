@@ -9,6 +9,7 @@ This repo is about OWASP Mutillidae II ( updating content often)
 OWASP Mutillidae II is a free, open-source, deliberately vulnerable web application providing a target for web-security training. Mutillidae can be installed on Linux and Windows using LAMP, WAMP, and XAMMP. It is pre-installed on SamuraiWTF and OWASP BWA. The existing version can be updated on these platforms. With dozens of vulnerabilities and…
 
   *Available here for download and work in local or remote it is your Choise https://github.com/webpwnized/mutillidae*
+ *Available here for run with Docker https://github.com/webpwnized/mutillidae-docker*
   
  We are working in this section labs for *SQL-Injection*
  
@@ -33,6 +34,9 @@ Options:
   1. There are many options for install this project , for instance in localhost with *LAMP,XAMP,WAMP* or by containers in *Docker* I show both and I tried both
   as well.
   Here is the link for install in Docker ![ install Docker and Mutillidae ](https://www.youtube.com/watch?v=9RH4l8ff-yg) 
+  *Procedure  in Docker:* 
+  Download from here ![ install Docker and Mutillidae ](https://github.com/webpwnized/mutillidae-docker) clone the entire repo and follow this steps , after download go to the /mutillidae-docker folder , then just run docker-compose up .
+  
   2. Installation in XAMP or LAMP just clone this repo ![Mutillidae](https://github.com/webpwnized/mutillidae) in htdocs - www-data - etc.. and run http://127.0.0.1/mutillidae
   3. Read carfully the Instructions about database configuratin and *setup* .
   4. Start the labs  (solo hay que añadir la base de datos ).
